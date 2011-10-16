@@ -1,16 +1,152 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
-<title>Conforming XHTML 1.0 Strict Template</title>
+<meta name="description" content="XHTML Practice" />
+<meta name="author" content="Mike Rogowski" />
+
+<style type="text/css">
+#block
+{
+font-weight:lighter;
+}
+#chart
+{
+text-align:center;
+}
+thead
+{
+background-color:#FF0000;
+}
+tbody
+{
+background-color:#00FF00;
+}
+tfoot
+{
+background-color:#0000FF;
+}
+</style>
+
+<title>Homework Assignment 2</title>
 
 </head>
 
-<body>
-<hl>Hello World</h1>
-</body>
-</html>
+<body bgcolor="#E6E6FA">
 
+<div id="heading">
+      <h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+</div>
+
+<div id="location">
+	<address>
+	Example Company<br />
+	<a href="mailto:us@example.org">Send Company an Email</a><br />
+	Address: 800 Denville, NJ 07834<br />
+	Phone: 973-888-6666
+	</address>
+</div>
+
+<div id="preformatted">
+	<pre>
+	Text within a set of pre
+tags preserves both spaces and
+		line breaks.
+	</pre>
+</div>
+
+<div id="ordered">
+	<ol>
+	<li>Ordered list element 1</li>
+	<li>Ordered list element 2</li>
+	<li>Ordered list element 3</li>
+	</ol>
+</div>
+
+<br>
+
+<div id="unordered">
+	<ul>
+	<li>Unordered list element 1</li>
+	<li>Unordered list element 2</li>
+	<li>Unordered list element 3</li>
+	</ul>
+</div>
+
+<div id="text">
+	<p>The p tags denote text in a paragraph. Here is an example of some text in paragraph form. <u>The man from Spain jumped gently in the rain.</u></p>
+</div>
+
+<div id="block">
+	<blockquote>
+	<i>Here is an example of a long quotation. Within the blockquote tags is a notably long quotation. It is quite interesting and the text is cool.</i>
+	</blockquote>
+</div>
+
+<!--Here is an example of a comment. Comments are not displayed in the web browser-->
+
+<button type="button">I Am A Button!</button>
+
+<hr />
+	<p>Horizontal Lines</p>
+<hr />
+
+<p>
+	<small>This is some small text.</small> <br />
+	<strong>This is some strong text.</strong> <br />
+	<tt>This is some teletype text.</tt>
+</p>
+
+<select>
+	<option value="opt 1">Apples</option>
+	<option value="opt 2">Bananas</option>
+	<option value="opt 3">Pears</option>
+</select>
+
+<br /><br />
+
+<form>
+	<label for="choice 1">Apples</label>
+		<input type="radio" name="fruit" id="apple" />
+	<label for="choice 2">Bananas</label>
+		<input type="radio" name="fruit" id="banana" />
+	<label for="choice 2">Pears</label>
+		<input type="radio" name="fruit" id="pear" />
+</form>
+
+<br />
+
+<div id="chart">
+<table style="width:500px;">
+	<thead>
+		<tr>
+			<th>Header</th>
+			<th>Header</th>
+			<th>Header</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Odd</td>
+			<td>Odd</td>
+			<td>Odd</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>Even</td>
+			<td>Even</td>
+			<td>Even</td>
+		</tr>
+	</tfoot>
+</table>
+</div>
+
+</body>
+</html> 
